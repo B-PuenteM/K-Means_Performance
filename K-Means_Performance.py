@@ -53,7 +53,7 @@ with tqdm(total=100, file=sys.stdout) as pbar:
             #print(end_time)
             puntos.append(n_points)
             tiempo.append(end_time)
-            n_points=n_points+5000
+            n_points=n_points+500
             current_value=[k,n_points,end_time]
             data.append(current_value)
         #plt.scatter(puntos, tiempo, alpha=0.5)
