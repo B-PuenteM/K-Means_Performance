@@ -41,7 +41,7 @@ max_points=100000
 with tqdm(total=100, file=sys.stdout) as pbar:
     k=1
     while k <=max_k:
-        n_points = 100
+        n_points = 1000
         while n_points<=max_points:
             start_time = time.time()
             kmeans = KMeans(n_clusters=k, random_state=0).fit(scatter_generator(n_points))
