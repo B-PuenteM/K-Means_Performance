@@ -37,7 +37,7 @@ puntos=[]
 tiempo=[]
 data=[[0,0,0]]
 l=1
-max_points=1000000
+max_points=100000
 with tqdm(total=100, file=sys.stdout) as pbar:
     k=1
     while k <=max_k:
